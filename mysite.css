@@ -1,0 +1,81 @@
+.root{
+font-size: 16px;
+}
+.paragraph{
+    color: crimson;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display : block;
+    margin : 1em;
+}
+.banner .card {
+background: #2c2c2c;
+border: .5vw solid #2c2c2c;
+;border-radius: 10px;
+box-shadow: .5vw .5vw .5vw .5vw #35eea4;
+display: block;
+}
+
+.banner .card .header {
+color : #35eea4;
+font-family:"Playfair Display",serif;
+font-size: 4rem;
+font-weight: 70;
+margin-bottom: 2vh;
+padding:.5vw;
+}
+
+.banner .card .sub-heading {
+    color : #35eea4;
+    font-family:"Playfair Display",serif;
+    font-size:21px;
+    margin: 0;
+    padding: 0 .5vw .5vw;
+}
+
+.banner .card .sub-heading button{
+background: none;
+border: none;
+border-radius: 5px;
+color: #35eea4;
+font-family: "istok web", sans-serif;
+font-size: 16px;
+letter-spacing: 8px;
+margin-top: 20vh;
+padding: .5vw;
+text-transform: uppercase;
+transition: box-shadow 0.3s linear .1s;
+}
+
+.banner .card .sub-heading button:hover{
+cursor: pointer;
+box-shadow: 0 3px 20px 0 #35eea4;
+}
+
+.row{
+    display: block;
+    margin-top: 30vh;
+}
+
+.row.my-image{
+    border: 1px solid #35eea4;
+    border-radius:5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 250px;
+    float:right;
+}
+
+.icon-group{
+    margin-top: 20vh;
+}
+
+.icon-group .icon{
+margin-right:10vh;
+width: 25px;
+}
